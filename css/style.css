@@ -223,7 +223,7 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 	border-top: 5px solid #29551A;
 	padding: 1px;
 /*	height: 300px;
-*/	width: 960px;
+*/	width: 728px;
 
 	border-bottom: 5px solid #29551A;
 
@@ -478,23 +478,23 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 	font-family: 'NixieOne';
 	font-weight: normal;
 	line-height: 24px;
-	margin: 0 20px 24px;
-    margin-left:10px;
-}
+	margin: 0 0px 24px;
+/*    margin-left:10px;
+*/}
 
 #contents h3{
    color: #000;
 	font-family: 'NixieOne';
 	font-weight: normal;
 	line-height: 24px;
-	margin: 0 40px 24px;
+	margin: 0 0px 24px;
 }
 #contents p {
 	color: #606060;
 	font-size: 19px;
 	line-height: 24px;
-	margin: -10px 20px;
-	padding: 0 20px 24px;
+	margin: -10px 0px;
+	padding: 0 0px 24px;
 }
 #contents p a {
 	color: #606060;
@@ -511,8 +511,8 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 }
 
 #contents ul{ 
-    margin-left: 30px;
-}
+/*    margin-left: 30px;
+*/}
 
 #contents ul h4 {
    color: #000;
@@ -526,15 +526,15 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 /*------------------------------- Home -------------------------------*/
 #home p {
     font-size: 19px;
-    padding-left:40px;
-    margin-right:160px;
+/*    padding-left:40px;
+*/    margin-right:160px;
     padding-bottom: 10px;
     text-align:justify;
 }
 
 #home ul {
-	margin-left: 60px;
-}
+/*	margin-left: 60px;
+*/}
 
 #home li p{
     font-size: 19px;
@@ -548,8 +548,8 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
     color: #000;
 	font-family: 'NixieOne';
 	line-height: 24px;
-	margin-left: 60px;
-    padding-bottom: 10px;
+/*	margin-left: 60px;
+*/    padding-bottom: 10px;
 }
 
 #home h3 {
@@ -558,8 +558,8 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
     color: #000;
 	font-family: 'NixieOne';
 	line-height: 24px;
-	margin-left: 60px;
-    padding-bottom: 10px;
+/*	margin-left: 60px;
+*/    padding-bottom: 10px;
 }
 
 #home .frame4 {

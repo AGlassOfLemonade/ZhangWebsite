@@ -241,6 +241,17 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 
 }
 
+#peoplepic
+{
+		float: left;
+	border-top: 5px solid #29551A;
+	padding: 1px;
+/*	height: 300px;
+*/	width: 930px;
+
+	border-bottom: 5px solid #29551A;
+}
+
 
 
 
@@ -353,10 +364,11 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 .fadein
 {
 	   position: relative;
-	height: 200px;
+	height: 243px;
 
 	float: left;
-	margin-left: 50px;
+/*	margin-left: 50px;
+*/
 }
 
 .fadein img

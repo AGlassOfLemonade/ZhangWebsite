@@ -60,8 +60,8 @@ img {
 	background: url(../images/web/separators.png) no-repeat;
 }
 #blogs li, #blogs div.header, #blogs div.details {
-	background-image: url(../images/web/bg-blog-content.png);
-	background-repeat: no-repeat;
+/*	background-image: url(../images/web/bg-blog-content.png);
+	background-repeat: no-repeat;*/
 }
 #info li, #info div.header, #info div.details {
 	background-image: url(../images/web/bg-blog-content.png);
@@ -131,12 +131,15 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 #container {
     margin: 1em auto 0 auto;
     height: auto;
-    width: 970px;
-    background-color: #f6f6f6;
-    overflow-y: hidden;
+    width: 931px;
+
+/*	box-shadow: 0px 0px 7px #999;
+*/
+/*    background-color: #fff;
+*/    overflow-y: hidden;
     display table;
     border-collapse: collapse;
-    margin-left: 45px;
+    margin-left: 0px;
 }
 /*-----------site nav-------------*/
 #sitenav
@@ -689,7 +692,7 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 }
 #pubs h2 {
 	text-align: left;
-	margin-left: 55px;
+	margin-left: 0px;
 }
 #pubs h6 {
 	font-family:"Times New Roman", Times, serif;
@@ -697,19 +700,20 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 	font-style:oblique;
 	font-weight:normal;
 	color:#C30;
-	margin-left:55px;
+	margin-left:0px;
 	margin-top: -10px;
     padding-bottom: 10px;
 }
 #pubs ol {
 	list-style-type:decimal;
-	margin-left: 10px;
+	margin-left: 0px;
 	margin-top:-30px;
     font-size: 14px;
 }
 #pubs ol li {
 	float: left;
-	margin: 0 20px;
+	margin: 0 0px;
+	margin-right: 20px;
 }
 #pubs ol li p {
 	font-family: "Trebuchet MS";
@@ -852,6 +856,7 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 	list-style: none;
 	margin: 0 0 42px;
 	padding: 42px 0 0;
+
 /*	position: relative;
 	float: left;*/
 }

@@ -918,13 +918,13 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 
 /** Contact **/
 #contact p {
-   margin-left:-20px;
+   margin-left: 0px;
    margin-top:-20px;
 }
 
 #contact h2 {
 	text-align: left;
-	margin-left: -1px;
+	margin-left: 0px;
 }
 
 #contact p {

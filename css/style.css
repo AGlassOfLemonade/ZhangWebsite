@@ -724,13 +724,13 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 /*--------------------------------- TEACH ---------------------------------*/
 #teach h2 {
 	text-align: left;
-	margin-left: 55px;
+	margin-left: 0px;
 	color:#C30;
 	font-size:15px;
 }
 
 #teach ul {
-    margin-left: 40px;
+    margin-left: 5px;
 }
 
 /* Main */
@@ -857,9 +857,19 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 	margin: 0 0 42px;
 	padding: 42px 0 0;
 
+
+
 /*	position: relative;
 	float: left;*/
 }
+
+
+#blogs a:visited
+{
+	color: #000;
+
+}
+
 #blogs h3, #blogs div.details p {
 	padding-left: 30px;
 	padding-right: 45px;

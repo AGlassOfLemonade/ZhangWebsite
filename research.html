@@ -4,6 +4,47 @@
 	<meta charset="UTF-8">
 	<title>Research - Zhang Lab</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+
+
+         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://malsup.github.com/chili-1.7.pack.js"></script>
+<script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
+<script type="text/javascript" src="http://malsup.github.com/jquery.easing.1.3.js"></script>
+<script type="text/javascript">
+$.fn.cycle.defaults.timeout = 6000;
+$(function() {
+    // run the code in the markup!
+    $('table pre code').not('#skip,#skip2').each(function() {
+        eval($(this).text());
+    });
+    
+    $('#s4').before('<div id="nav" class="nav">').cycle({
+        fx:     'turnDown',
+        speed:  'fast',
+        timeout: 0,
+        pager:  '#nav'
+    });
+
+    $('#s1').cycle({ 
+    fx:     'scrollLeft', 
+    speed:  700, 
+    next:   '#s1', 
+    timeout: 3000 
+});
+});
+
+function onBefore() {
+    $('#output').html("Scrolling image:<br>" + this.src);
+    //window.console.log(  $(this).parent().children().index(this) );
+}
+function onAfter() {
+    $('#output').html("Scroll complete for:<br>" + this.src)
+        .append('<h3>' + this.alt + '</h3>');
+}
+
+
+
+</script>
 </head>
 <body>
 
@@ -40,7 +81,15 @@
                 </div>
 
 				<div id="researchpic">
-					<img src="images/research/research.png" alt="Img" width="920">
+
+        <div id="s1" class="pics">
+
+					<img src="images/research/research2.png" alt="Img" width="920">
+					<img src="images/research/test1.png" alt="Img">
+					<img src="images/research/test2.png" alt="Img">
+
+				</div>
+
 				</div>
 
 	<div id="contents">

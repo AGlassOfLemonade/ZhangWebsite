@@ -92,7 +92,7 @@ img {
 .frame3 {
 	height: 199px;
 	width: 131px;
-	padding: 8px 19px 15px 9px;
+	padding: 0px 19px 15px 9px;
 	overflow:hidden;
 }
 .frame4 {
@@ -863,6 +863,12 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 	float: left;*/
 }
 
+#blogs img
+{
+	position: relative;
+	float: left;
+
+}
 
 #blogs a:visited
 {
@@ -870,10 +876,19 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 
 }
 
-#blogs h3, #blogs div.details p {
+#blogs h3
+{
 	padding-left: 30px;
 	padding-right: 45px;
 	margin-left:300px;
+	font-size: 24px;
+} 
+
+#blogs div.details p {
+	padding-left: 30px;
+	padding-right: 45px;
+	margin-left:300px;
+	font-size: 20px;
 }
 
 #blogs span.category {

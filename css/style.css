@@ -722,6 +722,26 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 	margin-top:-5px;
 }
 
+#pubs2 ol
+{
+	list-style-type:decimal;
+	margin-left: 0px;
+	margin-top:-30px;
+    font-size: 14px;	
+}
+
+#pubs2 ol li {
+
+	margin: 0 0px;
+	margin-right: 20px;
+}
+#pubs2 ol li p {
+	font-family: "Trebuchet MS";
+	font-size:19px;
+	margin-top:-5px;
+}
+
+
 /*--------------------------------- TEACH ---------------------------------*/
 #teach h2 {
 	text-align: left;

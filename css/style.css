@@ -30,7 +30,7 @@ body {
 	width: 960px;
 	margin: 0 auto;
 	padding: 96px 0 0;
-    padding-right:90px;
+    padding-right: 0px;
 /*    position: relative;
 	float: left; possible addition with reformatting to make it not so close to left edge
 
@@ -298,7 +298,7 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 #logo {
 	float: left;
 	display: inline-block;
-	margin-top: 20px;
+	margin-top: 17px;
     margin-left: 40px;
     margin-right: 35px;
 }
@@ -852,6 +852,10 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 	text-decoration: none;
 }
 
+
+
+
+
 /** Blog **/
 #blogs {
 	list-style: none;
@@ -914,7 +918,7 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 	background-position: -965px 0;
 	background-repeat: repeat-y;
 	display: inline-block;
-	width: 958px;
+	width: 929px;
 	padding: 0px 0 9px 2px;
 }
 #blogs .frame3 {
@@ -928,7 +932,7 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 	color: #606060;
 	display: inline-block;
 	font-family: Arial, Helvetica, sans-serif;
-	width: 885px;
+	width: 850px;
 	padding: 18px 37px 0 30px;
 	text-align: right;
 }

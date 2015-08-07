@@ -228,6 +228,7 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 
 #indexstuff
 {
+	margin-top: 32px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 452px;
@@ -247,6 +248,7 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 
 #researchpic
 {
+	margin-top: 22px;
 	float: left;
 	border-top: 5px solid #29551A;
 	padding: 1px;
@@ -264,6 +266,7 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 
 #peoplepic
 {
+	margin-top: 21px;
 	float: left;
 	border-top: 5px solid #29551A;
 	padding: 0px;
@@ -546,7 +549,8 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 	font-family: 'NixieOne';
 	font-weight: normal;
 	line-height: 24px;
-	margin: 0 0px 24px;
+	margin: -10px 0px 25px;
+	text-decoration: underline;
 /*    margin-left:10px;
 */}
 
@@ -595,9 +599,10 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 #home p {
     font-size: 19px;
 /*    padding-left:40px;
-*/    margin-right:160px;
+*/    margin-right: 10px;
     padding-bottom: 10px;
     text-align:justify;
+    margin-left: 10px;
 }
 
 #home ul {
@@ -610,6 +615,12 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
     margin-left: 10px;
     padding: 0 20px 0 0;
 }
+
+#home li
+{
+	margin-left: 10px;
+}
+
 #home h2 {
     font-size: 30px;
     margin-top: 30px;
@@ -666,6 +677,8 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 
 
 #research p {
+
+	margin-left: 10px;
     font-size: 19px;
 /*    margin-left:20px;
 */    margin-top:-10px;
@@ -676,8 +689,9 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 */    height: 125px;
 }
 #research h2 {
+	text-decoration: underline;
     padding-bottom: 0px;
-    padding-top: 35px;
+    padding-top: 42px;
 }
 #research ul {
 /*    margin-left:15px;
@@ -734,6 +748,7 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 #pubs h2 {
 	text-align: left;
 	margin-left: 0px;
+	margin-top: 24px;
 }
 #pubs h6 {
 	font-family:"Times New Roman", Times, serif;
@@ -749,16 +764,22 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 	list-style-type:decimal;
 	margin-left: 0px;
 	margin-top:-30px;
-    font-size: 14px;
+    font-size: 21px;
 }
 #pubs ol li {
 	float: left;
 	margin: 0 0px;
 	margin-right: 20px;
+	padding-left: 10px;
 }
+#pubs li
+{
+	margin-left: 10px;
+}
+
 #pubs ol li p {
-	font-family: "Trebuchet MS";
-	font-size:19px;
+/*	font-family: "Trebuchet MS";*/
+	font-size:21px;
 	margin-top:-5px;
 }
 
@@ -767,17 +788,18 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 	list-style-type:decimal;
 	margin-left: 0px;
 	margin-top:-30px;
-    font-size: 14px;	
+    font-size: 21px;	
 }
 
 #pubs2 ol li {
 
+	padding-left: 10px;
 	margin: 0 0px;
 	margin-right: 20px;
 }
 #pubs2 ol li p {
-	font-family: "Trebuchet MS";
-	font-size:19px;
+	/*font-family: "Trebuchet MS";*/
+	font-size:21px;
 	margin-top:-5px;
 }
 
@@ -789,6 +811,7 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 	color:#C30;
 	font-size:15px;
 	text-decoration: underline;
+	margin-top: 28px;
 }
 
 #teach ul {
@@ -1001,7 +1024,7 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 /** Contact **/
 #contact p {
    margin-left: 0px;
-   margin-top:-20px;
+   margin-top:-22px;
 }
 
 #contact h2 {
@@ -1016,7 +1039,7 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 #contact 
 {
 	min-height: 1000px;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 #contact > div {
 	background-position: right 0;

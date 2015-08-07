@@ -141,6 +141,12 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
     border-collapse: collapse;
     margin-left: 0px;
 }
+
+#facility
+{
+	margin-top: 50px;
+}
+
 /*-----------site nav-------------*/
 #sitenav
 {
@@ -220,13 +226,20 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 /*--------------pics maybe---------*/
 
 
+#indexstuff
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 452px;
+}
+
 #indexpic
 {
-	float: left;
-	border-top: 5px solid #29551A;
+/*	float: left;
+*/	border-top: 5px solid #29551A;
 	padding: 1px;
 /*	height: 300px;
-*/	width: 800px;
+*/	width: 450px;
 
 	border-bottom: 5px solid #29551A;
 
@@ -244,19 +257,40 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 
 }
 
+#researchpic img
+{
+	margin-top: 4px;
+}
+
 #peoplepic
 {
-		float: left;
+	float: left;
 	border-top: 5px solid #29551A;
-	padding: 1px;
+	padding: 0px;
+
 /*	height: 300px;
+
 */	width: 930px;
 
 	border-bottom: 5px solid #29551A;
 }
 
+#peoplepic img
+{
+	margin-top: 4px;
+}
 
+#navCenter
+{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 48px;
+}
 
+#goRight
+{
+	float: right;
+}
 
 /*----------------Wrapper------------------*/
 
@@ -403,6 +437,12 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 */
 }
 
+#peoples li
+{
+	margin: 0px;
+	padding: 0px;
+}
+
 #people .page {
     margin-left 45px: 
 }
@@ -495,7 +535,7 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 #contents > div {
 	display: inline-block;
 	width: 100%;
-	padding-top: 42px;
+	padding-top: 0px;
 }
 #contents > div.body {
 	width: 950px;
@@ -636,8 +676,8 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 */    height: 125px;
 }
 #research h2 {
-    padding-bottom: 10px;
-    padding-top: 25px;
+    padding-bottom: 0px;
+    padding-top: 35px;
 }
 #research ul {
 /*    margin-left:15px;
@@ -688,7 +728,7 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 	height: 200px;
 	width: 320px;
 	margin-left:300px;
-	padding-bottom:20px;
+	padding-bottom:30px;
 	overflow:hidden;
 }
 #pubs h2 {
@@ -748,6 +788,7 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 	margin-left: 0px;
 	color:#C30;
 	font-size:15px;
+	text-decoration: underline;
 }
 
 #teach ul {
@@ -879,7 +920,7 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 /** Blog **/
 #blogs {
 	list-style: none;
-	margin: 0 0 42px;
+	margin: 0 0 0px;
 	padding: 42px 0 0;
 
 
@@ -972,8 +1013,10 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 	front-size: 19px;
 }
 
-#contact {
+#contact 
+{
 	min-height: 1000px;
+	margin-top: 50px;
 }
 #contact > div {
 	background-position: right 0;

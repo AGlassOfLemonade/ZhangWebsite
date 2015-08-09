@@ -14,18 +14,26 @@ $(function() {
 
     $('#s1').cycle({ 
     fx:     'scrollLeft', 
-    speed:  700, 
+    speed:  400, 
     next:   '#s1', 
     timeout: 3000 
 });
 
     $('#s2').cycle({ 
     // fx:     'scrollLeft', 
+    speed:  450, 
+    timeout: 3500, 
+    next:   '#goRight', 
+    prev:   '#goLeft' 
+});
+
+    $('#s3').cycle({ 
+    // fx:     'scrollLeft', 
     speed:  700, 
     timeout: 3500, 
     next:   '#goLeft', 
     prev:   '#goRight' 
-});
+});    
     // $('#goLeft').cycle({
     //     fx: 'scrollLeft'
     // });

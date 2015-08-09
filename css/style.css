@@ -225,13 +225,76 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 
 /*--------------pics maybe---------*/
 
+/*#goLeft
+{
+	font-size: 40px;
+	margin-top: -500px;	
+}
+
+#goRight
+{
+	margin-top: -300px;
+	margin-left: 100px;
+}*/
+
+#s3
+{
+	margin-left: auto;
+	float: right;
+}
+
+
+
+
+#s2
+{
+	width: 800px;
+	margin-left: 50px;
+
+
+}
+
+#s2 img
+{
+	float: left;
+	display: block;
+}
+
+/*.textstuff
+{
+
+    width: 500px;
+
+}*/
+
+#s2 div h3
+{
+
+	margin-left: 470px;
+
+	color: #29551A;
+
+}
+
+#s2 div p
+{
+	margin-left: 470px;
+
+
+}
+
+
 
 #indexstuff
 {
 	margin-top: 32px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 452px;
+/*	margin-left: auto;
+*/	margin-right: auto;
+	width: 962px;
+
+
+
+
 }
 
 #indexpic
@@ -243,10 +306,19 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 	padding-left: 2px;
 	padding-right: 2px;
 /*	height: 300px;
-*/	width: 450px;
+*/	width: 960px;
 
 	border-bottom: 5px solid #29551A;
 
+
+
+
+
+}
+
+#indexstuff a
+{
+	font-size: 40px;
 }
 
 #researchpic
@@ -291,6 +363,7 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 48px;
+	margin-top: -200px;
 }
 
 #goRight
@@ -599,6 +672,12 @@ a:link {text-decoration:none;color:#000}  /* unvisited link */
 }
 
 /*------------------------------- Home -------------------------------*/
+
+#home
+{
+	margin-top: 150px;
+}
+
 #home p {
     font-size: 19px;
 /*    padding-left:40px;
